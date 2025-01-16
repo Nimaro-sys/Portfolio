@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-moi</title>
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+    <!-- Barre de navigation -->
+
+    <header class="bg-gray-800 p-4 flex justify-between items-center">
+        <a href="./index.html"> <img src="./images/RomainPp.png" alt="Romain" class="h-16 w-16 rounded-full cursor-pointer transform transition-transform duration-300 hover:scale-110"> </a>        
+        <div class="text-lg font-bold">Romain</div>
+        <div class="text-lg">Développeur Web Junior</div>
+    </header>
+
+    <div>
+        <nav>
+            <ul class="flex space-x-6 justify-center p-4">
+                <li><a href="./index.html" class="hover:underline">Accueil</a></li>
+                <li><a href="#projects" class="hover:underline">Projets</a></li>
+                <li><a href="./ExperienceCV.html" class="hover:underline">Expérience pro</a></li>
+                <li><a href="./contactMe.html" class="hover:underline">Contact</a></li>
+                <li><a href="./ExperienceCV.html" class="hover:underline">CV</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Section Formulaire de contact -->
+    <hr>
+    <section id="contact" class="py-12">
+        <h1 class="text-center text-4xl font-bold mb-8">Contactez-moi</h1>
+        <hr class="mb-8">
+        <div class="max-w-4xl mx-auto flex flex-col items-center">
+            <form class="w-full bg-gray-800 p-6 rounded-lg shadow-md flex flex-col space-y-6">
+                <div class="flex flex-col">
+                    <label for="name" class="text-sm font-bold mb-2">Nom :</label>
+                    <input type="text" id="name" name="name" placeholder="Votre nom" class="p-2 rounded bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-green-500">
+                </div>
+
+                <div class="flex flex-col">
+                    <label for="email" class="text-sm font-bold mb-2">Email :</label>
+                    <input type="email" id="email" name="email" placeholder="Votre email" class="p-2 rounded bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-green-500">
+                </div>
+
+                <div class="flex flex-col">
+                    <label for="message" class="text-sm font-bold mb-2">Message :</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Votre message" class="p-2 rounded bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-green-500"></textarea>
+                </div>
+
+                <div class="text-center">
+                    <button type="submit" class="bg-green-500 text-black px-4 py-2 rounded hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500">Envoyer</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
