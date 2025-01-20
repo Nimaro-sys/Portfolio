@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carte Projet</title>
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+    <!-- Header et navigation -->
+    <header class="bg-gray-800 p-4 flex justify-between items-center">
+        <a href="./index.html"> <img src="./images/RomainPp.png" alt="Romain" class="h-16 w-16 rounded-full cursor-pointer transform transition-transform duration-300 hover:scale-110"> </a>        
+        <div class="text-lg font-bold">Romain</div>
+        <div class="text-lg">Développeur Web Junior</div>
+    </header>
+
+    <nav>
+        <ul class="flex space-x-6 justify-center p-4">
+            <li><a href="./index.html" class="hover:underline">Accueil</a></li>
+            <li><a href="./projects.html" class="hover:underline">Projets</a></li>
+            <li><a href="./ExperienceCV.html" class="hover:underline">Expérience pro</a></li>
+            <li><a href="./contactMe.html" class="hover:underline">Contact</a></li>
+            <li><a href="./ExperienceCV.html" class="hover:underline">CV</a></li>
+        </ul>
+    </nav>
+
+        <!-- Section Cartes projets -->
+        <hr>
+        <section id="about" class="py-12">
+            <h1 class="text-center text-4xl font-bold mb-8">Projets</h1>
+            <hr>
+            <div class="max-w-6xl mx-auto flex flex-col md:flex-row md:justify-between md:space-x-8 space-y-8 md:space-y-0">
+
+    <!-- Carte Projet -->
+    <main class="flex justify-center py-8">
+        <article class="rounded-xl border border-gray-700 bg-gray-800 p-4 mb-4 flex flex-col md:flex-row w-11/12 max-w-5xl">
+            <!-- Contenu -->
+            <div class="flex-1 md:mr-4">
+                <div class="flex items-center gap-4">
+                    <img src="./images/RomainPp.png" alt="Romain" class="h-16 w-16 rounded-full p-2">
+                    <div class="flex flex-col">
+                        <h3 class="text-lg font-medium text-white">Romain</h3>
+                        <p class="text-xs font-medium text-gray-300">Développeur Web Junior</p>
+                    </div>
+                </div>
+
+                <hr class="my-4 border border-gray-700">
+
+                <ul class="mt-4 space-y-2">
+                    <li>
+                        <a href="#" class="block h-full rounded-lg border border-gray-700 p-4 hover:border-pink-600">
+                            <strong class="font-medium text-white">Projet template</strong>
+
+                            <p class="mt-1 text-xs font-medium text-gray-300">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consequuntur deleniti,
+                                unde ab ut in!
+                            </p>
+
+                            <div class="md:w-1/6 w-1/4 mt-4">
+                                <img src="./images/Perfume.png" alt="Project Image" class="object-cover w-full rounded-lg">
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </article>
+    </main>
+</body>
+</html>
