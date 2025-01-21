@@ -23,9 +23,16 @@
     {
     "name": "Site calcul de dépenses",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-    "image": "./images/Life1.jpg",
-    "link": "https://nimaro-sys.github.io/LifeWeaverOverWatch/",
+    "image": "./images/Vacances.png",
+    "link": "https://nimaro-sys.github.io/Cagnotte/",
     "alt": "Vacances"
-    }
+    },
+    {
+      "name": "Template",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "image": "https://picsum.photos/300/200",
+      "link": "https://nimaro-sys.github.io/ParfumTailWInd/",
+      "alt": "placeholder"
+      }
   ]
   
