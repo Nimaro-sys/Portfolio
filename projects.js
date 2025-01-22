@@ -21,7 +21,7 @@ async function loadProjects() {
                         <strong class="text-white">${project.name}</strong>
                         <ul>
                             <li>
-                                <a href="${project.link}" class="block rounded-lg border border-gray-700 p-4 hover:border-pink-600">
+                                <a href="${project.link}" class="block rounded-lg border border-gray-700 p-4 hover:border-pink-600 mt-4">
                                     <p class="text-gray-300 text-sm mt-1">${project.description}</p>
                                     <p class="text-blue-300 text-sm mt-1 flex items-center">
                                         <img src="https://icongr.am/octicons/link-external.svg?size=20&color=93C5FD" class="mr-2"> Cliquez ici pour le voir

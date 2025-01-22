@@ -1,28 +1,28 @@
 [
     {
       "name": "Carte produit : Parfum",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "description": "Une simple page d'une carte produit d'un parfum.",
       "image": "./images/Perfume.png",
       "link": "https://nimaro-sys.github.io/ParfumTailWInd/",
       "alt": "Parfum"
     },
     {
       "name": "Site restaurant italien",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "description": "L'un de mes premier 'vrai' projet, le site d'un restaurant italien (niveau débutant).",
       "image": "./images/Pasta.webp",
       "link": "https://nimaro-sys.github.io/PastaLaVista/",
       "alt": "Pasta"
     },
     {
       "name": "Présentation personnage : Vitale",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "description": "Premier Brief fait sur le personnage Vitale.",
       "image": "./images/Life1.jpg",
       "link": "https://nimaro-sys.github.io/LifeWeaverOverWatch/",
       "alt": "LifeWeaver"
     },
     {
     "name": "Site calcul de dépenses",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "description": "Petit exercice dont j'ai bien aimé le résultat.",
     "image": "./images/Vacances.jpg",
     "link": "https://nimaro-sys.github.io/Cagnotte/",
     "alt": "Vacances"
