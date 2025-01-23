@@ -1,11 +1,11 @@
-// Charger les projets dynamiquement depuis un fichier JSON
+// Fonction qui charge les valeurs du fichier JSON et les injecte dans le HTML
 async function loadProjects() {
     try {
-        const response = await fetch('./data/projects.json'); // Charger le fichier JSON
+        const response = await fetch('./data/projects.json');
         const projects = await response.json();
         const container = document.getElementById('projects-container');
 
-        // Générer les cartes projets
+        // Génération des cartes projets (for each project dans projects.json)
         projects.forEach(project => {
             const card = `
                 <article class="rounded-xl border border-gray-700 bg-gray-800 p-6 flex flex-col md:flex-row w-full max-w-4xl mx-auto">
@@ -42,6 +42,10 @@ async function loadProjects() {
             `;
             container.innerHTML += card;
         });
+
+// Debug: affiche les projets dans la console
+        console.log(projects);
+// Debug: affiche l'erreur dans la console si le document n'est pas trouvé
     } catch (error) {
         console.error('Erreur lors du chargement des projets :', error);
     }
