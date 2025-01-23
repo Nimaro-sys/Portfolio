@@ -4,6 +4,7 @@
       "description": "Une simple page d'une carte produit d'un parfum.",
       "image": "./images/Perfume.png",
       "link": "https://nimaro-sys.github.io/ParfumTailWInd/",
+      "git":"https://github.com/Nimaro-sys/ParfumTailWInd",
       "alt": "Parfum"
     },
     {
@@ -11,6 +12,7 @@
       "description": "L'un de mes premier 'vrai' projet, le site d'un restaurant italien (niveau débutant).",
       "image": "./images/Pasta.webp",
       "link": "https://nimaro-sys.github.io/PastaLaVista/",
+      "git":"https://github.com/Nimaro-sys/PastaLaVista",
       "alt": "Pasta"
     },
     {
@@ -18,6 +20,7 @@
       "description": "Premier Brief fait sur le personnage Vitale.",
       "image": "./images/Life1.jpg",
       "link": "https://nimaro-sys.github.io/LifeWeaverOverWatch/",
+      "git":"https://github.com/Nimaro-sys/LifeWeaverOverWatch",
       "alt": "LifeWeaver"
     },
     {
@@ -25,6 +28,7 @@
     "description": "Petit exercice dont j'ai bien aimé le résultat.",
     "image": "./images/Vacances.jpg",
     "link": "https://nimaro-sys.github.io/Cagnotte/",
+    "git":"https://github.com/Nimaro-sys/Cagnotte",
     "alt": "Vacances"
     },
     {
@@ -32,6 +36,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
       "image": "https://picsum.photos/750/500",
       "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "demo": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
       "alt": "placeholder"
       }
   ]
