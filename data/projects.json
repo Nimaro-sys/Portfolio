@@ -16,6 +16,14 @@
       "alt": "Parfum"
     },
     {
+        "name": "Site Cinema",
+        "description": "ENtrainement a la disposition et génération de cartes produits à l'aide de .JSON.",
+        "image": "./images/Cinema.jpg",
+        "link": "https://nimaro-sys.github.io/PMFATraitosCinema/",
+        "git": "https://github.com/Nimaro-sys/PMFATraitosCinema",
+        "alt": "Cinema"
+    },
+    {
       "name": "Site restaurant italien",
       "description": "L'un de mes premier 'vrai' projet, le site d'un restaurant italien (niveau débutant).",
       "image": "./images/Pasta.webp",
