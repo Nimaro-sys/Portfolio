@@ -1,5 +1,13 @@
 [
     {
+    "name": "Site Walker'Elixir",
+    "description": "Un site de commerce pour un brief évalué, fait avec wordpress. Utilisation d'IA pour la création de contenu notamment images et articles fictifs.",
+    "image": "./images/Elixir.webp",
+    "link": "https://greta.3.lopia.fr/",
+    "git": "Pas de dépots git, c'est un site wordpress.",
+    "alt": "Elixir"
+    },
+    {
       "name": "Carte produit : Parfum",
       "description": "Une simple page d'une carte produit d'un parfum.",
       "image": "./images/Perfume.png",
@@ -39,13 +47,13 @@
       "git": "https://github.com/guichard/trombi",
       "alt": "Trombinoscope"
     },
-    {
-      "name": "Template",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-      "image": "https://picsum.photos/750/500",
-      "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      "git": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      "alt": "placeholder"
-      }
+      {
+        "name": "Template",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "image": "https://picsum.photos/750/500",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "git": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "alt": "placeholder"
+        }
   ]
   
