@@ -1,5 +1,13 @@
 [
-    {
+  {
+  "name": "Stock Market Simulator",
+  "description": "Un jeu de simulation de bourse,l   but est d'acheter et vendre des actions pour faire le plus de bénéfice possible.",
+  "image": "./images/Market.png",
+  "link": "https://nimaro-sys.github.io/Stock-Market-Game/",
+  "git": "https://github.com/Nimaro-sys/Stock-Market-Game",
+  "alt": "Elixir"
+  },
+  {
     "name": "Site Walker'Elixir",
     "description": "Un site de commerce pour un brief évalué, fait avec wordpress. Utilisation d'IA pour la création de contenu notamment images et articles fictifs.",
     "image": "./images/Elixir.webp",
